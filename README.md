@@ -1,61 +1,104 @@
-# Ailines_flights_project
-✈️ Airlines Flights Project
+# ✈️ Avia Uçuş Məlumatlarının Analizi
 
-This project focuses on analyzing airline flight data using Python and Google Colab.
+Bu layihədə Python proqramlaşdırma dili və Data Analysis kitabxanalarından istifadə edilərək avia uçuş məlumatları üzərində analiz aparılmışdır. Layihə Google Colab mühitində hazırlanmışdır.
 
-📌 Project Overview
+---
 
-The notebook includes:
+# 📌 Layihə Haqqında
 
-Data cleaning
-Data exploration
-Statistical analysis
-Data visualization
-Flight price analysis
-Airline comparison
-🛠 Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Google Colab
-📂 Dataset Features
+Layihənin əsas məqsədi uçuş məlumatlarını analiz etmək, statistik nəticələr çıxarmaq və müxtəlif vizuallaşdırmalar hazırlamaqdır.
 
-The dataset contains information about:
+Analiz zamanı aşağıdakı mövzular araşdırılmışdır:
 
-Airline names
-Source city
-Destination city
-Departure time
-Arrival time
-Flight duration
-Ticket prices
-📊 Analysis Performed
-✔ Data Cleaning
-Handling missing values
-Removing duplicates
-Checking dataset information
-✔ Exploratory Data Analysis
-Airline distribution
-Flight frequency analysis
-City comparison
-Price distribution
-✔ Data Visualization
-Bar charts
-Count plots
-Statistical graphs
-▶️ How to Run
-Clone the repository
+* Aviaşirkətlərin müqayisəsi
+* Bilet qiymətlərinin analizi
+* Gediş və gəliş vaxtlarının paylanması
+* Şəhərlərə görə uçuş sıxlığı
+* Uçuş müddəti və qiymət əlaqəsi
+* Statistik qrafiklər və vizuallaşdırmalar
+
+---
+
+# 🛠 İstifadə Olunan Texnologiyalar
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+
+---
+
+# 📂 Layihə Strukturu
+
+```bash id="3wyq5s"
+├── Airlines_flights_project.ipynb
+├── README.md
+├── requirements.txt
+└── dataset.csv
+```
+
+---
+
+# 📊 Aparılan Analizlər
+
+## ✔ Data Cleaning
+
+* Boş dəyərlərin yoxlanılması
+* Təkrarlanan məlumatların silinməsi
+* Dataset məlumatlarının yoxlanılması
+
+## ✔ Exploratory Data Analysis (EDA)
+
+* Aviaşirkətlərin müqayisəsi
+* Uçuş saylarının analizi
+* Şəhərlər üzrə müqayisə
+* Qiymət paylanması
+
+## ✔ Data Visualization
+
+* Bar chart
+* Count plot
+* Statistik qrafiklər
+* Distribution qrafikləri
+
+---
+
+# 📈 Layihədən Əldə Edilən Nəticələr
+
+* Bəzi aviaşirkətlərdə orta bilet qiymətləri daha yüksəkdir
+* Gediş vaxtı qiymətə təsir göstərir
+* Müəyyən şəhərlərdə uçuş sıxlığı daha çoxdur
+* Uçuş müddəti ilə qiymət arasında əlaqə mövcuddur
+
+---
+
+# ▶️ Layihəni İşə Salmaq
+
+## Repository-ni clone edin
+
+```bash id="0v7r1s"
 git clone https://github.com/your-username/your-repository-name.git
-Open the notebook in Google Colab or Jupyter Notebook
-Install required libraries
-pip install pandas numpy matplotlib seaborn
-Run all notebook cells
-📷 Project Goal
+```
 
-The main goal of this project is to practice data analysis and visualization skills using real-world airline flight data.
+## Lazımi kitabxanaları quraşdırın
 
-👨‍💻 Author
+```bash id="n3w9yb"
+pip install -r requirements.txt
+```
+
+## Notebook-u açın
+
+Layihəni aşağıdakı platformalarda işlədə bilərsiniz:
+
+* Google Colab
+* Jupyter Notebook
+
+---
+
+# 🎯 Layihənin Məqsədi
+
+Bu layihə Data Analysis və Data Visualization bacarıqlarını inkişaf etdirmək məqsədilə hazırlanmışdır. Real uçuş məlumatları üzərində analiz aparılaraq praktik təcrübə qazanılmışdır.
 
 Nicat Bayramov
